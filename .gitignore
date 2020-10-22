@@ -1,0 +1,8 @@
+.DS_Store
+node_modules/
+output/
+package-lock.json
+.idea/
+.tern-project
+npm-debug.log
+static/lib/vconsole.min.js

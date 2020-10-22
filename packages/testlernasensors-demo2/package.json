@@ -1,0 +1,15 @@
+{
+  "name": "testlernasensors-demo2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "sdutils": "git+http://gitlab.internal.sensorsdata.cn/components/utils/sdutils.git#semver:^0"
+  }
+}
