@@ -1,4 +1,4 @@
 function aaa(){
-    alert(123);
+    alert(1234);
 };
 module.exports = aaa;
