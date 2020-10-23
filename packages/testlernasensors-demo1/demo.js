@@ -1,7 +1,7 @@
 const sdutils = require('sdutils');
 
 function aaa(){
-    alert(123456);
+    alert(123456888);
 };
 
 console.log(sdutils);
