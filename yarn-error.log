@@ -1,0 +1,56 @@
+Arguments: 
+  /usr/local/Cellar/node@12/12.18.3/bin/node /usr/local/Cellar/yarn/1.22.5/libexec/bin/yarn.js install
+
+PATH: 
+  /usr/local/opt/node@12/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/usr/local/opt/node@12/bin
+
+Yarn version: 
+  1.22.5
+
+Node version: 
+  12.18.3
+
+Platform: 
+  darwin x64
+
+Trace: 
+  SyntaxError: /Users/joe/demos/test-sensensensen-haha/test-sensensensen-haha/package.json: Unexpected token / in JSON at position 572
+      at JSON.parse (<anonymous>)
+      at /usr/local/Cellar/yarn/1.22.5/libexec/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/usr/local/Cellar/yarn/1.22.5/libexec/lib/cli.js:310:30)
+      at /usr/local/Cellar/yarn/1.22.5/libexec/lib/cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "test-sensensensen-haha",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Joejo/test-sensensensen-haha.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/Joejo/test-sensensensen-haha/issues"
+    },
+    "homepage": "https://github.com/Joejo/test-sensensensen-haha#readme",
+    "devDependencies": {
+      "lerna": "^3.22.1"
+    },
+    "workspaces": [ // 配置package目录
+      "packages/*"
+   ]
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
