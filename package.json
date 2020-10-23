@@ -2,6 +2,7 @@
   "name": "test-sensensensen-haha",
   "version": "1.0.0",
   "description": "",
+  "private": true,
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -19,5 +20,8 @@
   "homepage": "https://github.com/Joejo/test-sensensensen-haha#readme",
   "devDependencies": {
     "lerna": "^3.22.1"
-  }
+  },
+  "workspaces": [
+    "packages/*"
+ ]
 }

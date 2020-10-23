@@ -10,6 +10,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "chalk": "^4.1.0",
     "sdutils": "git+http://gitlab.internal.sensorsdata.cn/components/utils/sdutils.git#semver:^0"
   }
 }
